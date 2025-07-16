@@ -8,7 +8,7 @@ In a new terminal, clone the project into your chosen directory:
 `git clone https://github.com/https://github.com/KyleADay/bbc-ucc-test.git`
 
 ## Install dependencies
-Navigate to the project diretory: 
+Navigate to the project directory: 
 
 `cd bbc-ucc-test`
 
