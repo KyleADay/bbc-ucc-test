@@ -5,7 +5,7 @@ This project is an example of API testing on a single endpoint using Playwright 
 
 ## Clone the repository
 In a new terminal, clone the project into your chosen directory:
-`git clone https://github.com/https://github.com/KyleADay/bbc-ucc-test.git`
+`git clone https://github.com/KyleADay/bbc-ucc-test.git`
 
 ## Install dependencies
 Navigate to the project directory: 
