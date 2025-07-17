@@ -2,10 +2,9 @@
   "name": "bbc-ucc-test",
   "version": "0.0.1",
   "scripts": {
-    "test": "cucumber-js --config config/cucumber.json"
+    "test": "cucumber-js --config cucumber.json"
   },
   "devDependencies": {
-    "-": "^0.0.1",
     "@cucumber/cucumber": "^11.3.0",
     "@playwright/test": "^1.54.0",
     "@types/node": "^24.0.13",
