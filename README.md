@@ -39,6 +39,6 @@ You can also run individual tests by using tags:
 
 `npm run test -- --tags @scenario1`
 
-Additional config can be found in `config/cucumber.json`
+Additional config can be found in `cucumber.json`
 
 After running the tests, reports can be found in the `reports` directory
