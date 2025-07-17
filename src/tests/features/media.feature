@@ -1,7 +1,7 @@
 Feature: GET /media Endpoint Tests
 
     @scenario1
-    Scenario: Response status code is 200
+    Scenario: Response status code is 200 and less than 1000 ms
         Given I have access to the API
         When I make a GET request to the '/media' endpoint
         Then it should return status code 200

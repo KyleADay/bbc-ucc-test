@@ -12,7 +12,7 @@ When('I make a GET request to the {string} endpoint', async function (endPoint) 
   const startTime = Date.now();
   this.response = await this.apiContext.get(baseURL + endPoint);
   this.responseTime = Date.now() - startTime;
-  this.responseHeader = await this.response.headers();
+  this.responseHeaders = await this.response.headers();
   this.responseJSON = await this.response.json();
   this.data = this.responseJSON.data;
 });
@@ -50,5 +50,5 @@ Then('the current date is in the response header', async function () {
     day: 'numeric',
     month: 'long',
   });
-  expect(this.responseHeader.date).toBe(formattedDate);
+  expect(this.responseHeaders.date).toBe(formattedDate);
 });
